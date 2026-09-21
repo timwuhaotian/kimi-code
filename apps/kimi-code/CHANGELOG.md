@@ -1,5 +1,15 @@
 # @moonshot-ai/kimi-code
 
+## 2.0.3
+
+### Patch Changes
+
+- [#3957](https://github.com/MoonshotAI/kimi-code/pull/3957) [`6a214b8`](https://github.com/MoonshotAI/kimi-code/commit/6a214b85e53e58a9ef6480f27bcb7b0103c0e34e) Thanks [@huangzheng2016](https://github.com/huangzheng2016)! - Fix a "Maximum call stack size exceeded" error when opening large sessions.
+
+- [#3847](https://github.com/MoonshotAI/kimi-code/pull/3847) [`65ae3e3`](https://github.com/MoonshotAI/kimi-code/commit/65ae3e368c7cfa096242cacc12eeeb661e682977) Thanks [@tpoisonooo](https://github.com/tpoisonooo)! - Tower mode: mission titles must be ASCII, and task cards show the mission id.
+
+- [#3931](https://github.com/MoonshotAI/kimi-code/pull/3931) [`f17a22e`](https://github.com/MoonshotAI/kimi-code/commit/f17a22ebf4e21b8196bfaaa9a2490707676bf519) Thanks [@sailist](https://github.com/sailist)! - Turn off filesystem watchers for config and workspace files by default. Set `[watch] enabled` to `true` or `KIMI_CODE_WATCH=1` to turn them back on.
+
 ## 2.0.2
 
 ### Patch Changes
